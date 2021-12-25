@@ -4,6 +4,7 @@ Notify slack when a column in Github projects is moved.
 # Usage
 - Create API Gateway and Lambda function to AWS.
 - Paste this code into the Lambda you created.
+- Change the values of column_dict, closed_column, and test_it_column.
 - Set the environment variables for Lambda.
 - Set up a Github webhook.
   - Set the Payload URL to the URL of the API Gateway.
